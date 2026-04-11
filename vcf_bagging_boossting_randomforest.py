@@ -145,4 +145,4 @@ with tab2:
         'Income':[ApplicantIncome, CoapplicantIncome]
     })
 
-    st.bar_chart(chart_data.set_index('Income Type'))
+    st.bar_chart(chart_data.set_index('Income Types'))
