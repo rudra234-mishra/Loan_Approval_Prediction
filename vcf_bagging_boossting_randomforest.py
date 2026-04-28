@@ -20,7 +20,7 @@ st.set_page_config(
 # ---------------- LOAD MODEL ----------------
 @st.cache_resource
 def load_model():
-    model = pickle.load(open("C:/Users/rudra/Downloads/Loan_Model.pkl", "rb"))
+    model = pickle.load(open("Loan_Model.pkl", "rb"))
     return model
 
 pipe = load_model()
