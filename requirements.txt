@@ -3,6 +3,5 @@ pandas
 matplotlib
 seaborn
 streamlit
-pickle
 sklearn
 warnings
